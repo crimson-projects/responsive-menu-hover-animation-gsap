@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.1/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat&amp;display=swap"rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll/dist/locomotive-scroll.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Responsive Menu Hover Animation using Gsap | Crimson</title>
+</head>
+
+<body>
+    
+    <main>
+        <div class="noisy__bg"></div>
+        <nav class="menu">
+            <a class="menu__item" data-img="https://source.unsplash.com/m663zRzRe40/300x400">
+                <span class="menu__item-text"><span class="menu__item-innertext">Lidia Slater</span></span>
+                <span class="menu__item-sub" data-splitting>Fashion Week Luxembourg</span>
+            </a>
+            <a class="menu__item" data-img="https://images.unsplash.com/photo-1596815064285-45ed8a9c0463?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=966&q=80">
+                <span class="menu__item-text"><span class="menu__item-innertext">Selina Galvan</span></span>
+                <span class="menu__item-sub" data-splitting>Milano Fashion Week</span>
+            </a>
+            <a class="menu__item" data-img="https://images.unsplash.com/photo-1584720223124-466ff369e7c2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Njl8fGdpcmxzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=900&q=60">
+                <span class="menu__item-text"><span class="menu__item-innertext">Selina Galvan</span></span>
+                <span class="menu__item-sub" data-splitting>London Amber Convention</span>
+            </a>
+            <a class="menu__item" data-img="https://source.unsplash.com/4nulm-JUYFo/300x400">
+                <span class="menu__item-text"><span class="menu__item-innertext">Jennifer Roth</span></span>
+                <span class="menu__item-sub" data-splitting>Lisbon Fashion Show</span>
+            </a>
+            <a class="menu__item" data-img="https://source.unsplash.com/AtrTXQnbxI4/300x400">
+                <span class="menu__item-text"><span class="menu__item-innertext">Lindsay Mcgee</span></span>
+                <span class="menu__item-sub" data-splitting>2019 New York Trends</span>
+            </a>
+            <a class="menu__item" data-img="https://source.unsplash.com/q5Xd4lzxE0g/300x400">
+                <span class="menu__item-text"><span class="menu__item-innertext">Arielle Kearney</span></span>
+                <span class="menu__item-sub" data-splitting>Rotterdam Fashion 2020</span>
+            </a>
+            <a class="menu__item" data-img="https://source.unsplash.com/ZG3AlXw9FB0/300x400">
+                <span class="menu__item-text"><span class="menu__item-innertext">Phebe Moon</span></span>
+                <span class="menu__item-sub" data-splitting>Fashion Week Napoli</span>
+            </a>
+            <a class="menu__item" data-img="https://source.unsplash.com/u6LGX2VMOP4/300x400">
+                <span class="menu__item-text"><span class="menu__item-innertext">Tala Johns</span></span>
+                <span class="menu__item-sub" data-splitting>Stockolm Fashion</span>
+            </a>
+            <a class="menu__item" data-img="https://source.unsplash.com/tLKOj6cNwe0/300x400">
+                <span class="menu__item-text"><span class="menu__item-innertext">Elina Clarkson</span></span>
+                <span class="menu__item-sub" data-splitting>2020 Roma Fashion</span>
+            </a>
+            <a class="menu__item" data-img="https://source.unsplash.com/LyeduBb2Auk/300x400">
+                <span class="menu__item-text"><span class="menu__item-innertext">Weronika Irwin</span></span>
+                <span class="menu__item-sub" data-splitting>Ukrainian Fashion Center</span>
+            </a>
+        </nav>
+    </main>
+    
+    <!-- Noisy Background EL -->
+    <div class="noisy__bg"></div>
+    
+    
+    <!-- Cursors -->
+    <svg class="cursor cursor__small" width="80" height="80" viewBox="0 0 80 80">
+        <circle cx="40" cy="40" r="5" />
+    </svg>
+    <svg class="cursor cursor__large" width="80" height="80" viewBox="0 0 80 80">
+        <circle cx="40" cy="40" r="20" />
+    </svg>
+
+
+    <script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+    <script src="https://unpkg.com/splitting/dist/splitting.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.4.0/gsap.min.js"></script>
+    <script src="js/script.js"></script>
+
+</body>
+</html>
